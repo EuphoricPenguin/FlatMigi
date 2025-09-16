@@ -1,0 +1,13 @@
+name = "Eric Migi Theme"
+license = "MIT"
+description = "A Hugo theme inspired by Eric Migicovsky's blog design"
+authors = ["Your Name"]
+homepage = "https://github.com/yourusername/eric-migi-theme"
+
+[module]
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2"
+    disable = false
+
+[min_version]
+  hugo = "0.113.0"

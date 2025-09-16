@@ -1,0 +1,28 @@
+<header class="mb-12">
+    <h1 class="text-3xl font-bold mb-6">
+        <a href="{{ .Site.BaseURL }}" class="text-indigo-600 hover:text-indigo-800">
+            {{ .Site.Title }}
+        </a>
+    </h1>
+    
+    <nav class="mb-8">
+        <ul class="flex flex-wrap gap-4 text-sm text-gray-600">
+            {{ if .Site.Params.social.twitter }}
+            <li><a href="{{ .Site.Params.social.twitter }}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600">Twitter</a></li>
+            {{ end }}
+            {{ if .Site.Params.social.bluesky }}
+            <li><a href="{{ .Site.Params.social.bluesky }}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600">Bluesky</a></li>
+            {{ end }}
+            {{ if .Site.Params.social.podcast }}
+            <li><a href="{{ .Site.Params.social.podcast }}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600">My Podcast</a></li>
+            {{ end }}
+            {{ if .Site.Params.social.speaking }}
+            <li><a href="{{ .Site.Params.social.speaking }}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600">Speaking</a></li>
+            {{ end }}
+            {{ if .Site.Params.social.contact }}
+            <li><a href="mailto:{{ .Site.Params.social.contact }}" class="hover:text-indigo-600">Contact</a></li>
+            {{ end }}
+            <li><a href="/index.xml" class="hover:text-indigo-600">RSS</a></li>
+        </ul>
+    </nav>
+</header>
