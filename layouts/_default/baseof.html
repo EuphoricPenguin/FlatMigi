@@ -5,30 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     
-    {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="{{ "fonts/chivo-mono.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
     
     {{ if .Site.Params.favicon }}
     <link rel="icon" href="{{ .Site.Params.favicon }}">
     {{ end }}
     
-    {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
     {{ end }}
 </head>
-<body class="bg-white text-gray-900">
-    <div class="max-w-3xl mx-auto px-4 py-8">
-        {{ block "header" . }}
-            {{ partial "header.html" . }}
-        {{ end }}
+<body>
+    <div class="container">
+        <header class="site-header">
+            {{ block "header" . }}
+                {{ partial "header.html" . }}
+            {{ end }}
+        </header>
         
-        <main class="mt-8">
+        <main class="main-content">
             {{ block "main" . }}{{ end }}
         </main>
         
-        {{ block "footer" . }}
-            {{ partial "footer.html" . }}
-        {{ end }}
+        <footer class="site-footer">
+            {{ block "footer" . }}
+                {{ partial "footer.html" . }}
+            {{ end }}
+        </footer>
     </div>
 </body>
 </html>
