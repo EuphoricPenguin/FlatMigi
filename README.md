@@ -43,6 +43,9 @@ footerText = "This is at the bottom."
 [[params.links]]
   text = "Example Link"
   url = "https://example.com"
+[[params.links]]
+  text = "RSS"
+  url = "./index.xml"
 ```
 
 ## Shortcodes
