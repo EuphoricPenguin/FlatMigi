@@ -8,7 +8,7 @@ A clean, minimal Hugo theme inspired by Eric Migicovsky's blog design.
 
 ## Features
 
-- **Clean, minimal design** with monospace font
+- **Minimal design** with monospace font
 - **Responsive layout** that works on all devices
 - **Left-aligned content** with left margin
 
