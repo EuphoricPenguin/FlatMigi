@@ -205,12 +205,34 @@ a:hover {
 
 /* Content prose */
 .content {
-    max-width: 65ch;
+    max-width: 58ch;
+    text-rendering: optimizeLegibility;
+    hyphens: manual;
+    letter-spacing: 0.01em;
 }
 
 .content p {
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 1.1em;
+    margin-top: 1.1em;
+    orphans: 3;
+    widows: 3;
+    text-indent: 0;
+}
+
+/* Improve link readability within content */
+.content a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Better spacing for lists */
+.content ul, .content ol {
+    margin-bottom: 1.1em;
+    margin-top: 1.1em;
+}
+
+.content li {
+    margin-bottom: 0.4em;
 }
 
 .content ul, .content ol {
@@ -271,6 +293,21 @@ a:hover {
     border-top: 1px solid #d1d5db;
     color: #6b7280;
     font-size: 0.875rem;
+}
+
+.footer-text {
+    text-align: center;
+    line-height: 1.4;
+    opacity: 0.8;
+}
+
+.footer-text a {
+    color: #6b7280;
+    text-decoration: underline;
+}
+
+.footer-text a:hover {
+    color: #4f46e5;
 }
 
 /* Utilities */

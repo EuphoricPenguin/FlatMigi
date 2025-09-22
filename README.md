@@ -35,6 +35,7 @@ theme = 'flatmigi'
 [params]
 about = "Your about me text goes here. This will appear at the top of the main page. You can use Markdown formatting here."
 tabTitle = "EuphoricPenguin's Blog"
+footerText = "This is at the bottom."
 
 [[params.links]]
   text = "Example Link"

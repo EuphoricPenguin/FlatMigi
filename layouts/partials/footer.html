@@ -1,3 +1,7 @@
 <footer>
-    <!-- Minimal footer -->
+    {{ if .Site.Params.footerText }}
+    <div class="footer-text">
+        {{ .Site.Params.footerText | markdownify }}
+    </div>
+    {{ end }}
 </footer>
