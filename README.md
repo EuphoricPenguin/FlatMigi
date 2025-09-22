@@ -59,7 +59,9 @@ A nifty way to add extra context to something without disrupting the flow of the
 
 ## License
 
-MIT-0 License
+The code is licensed under the MIT-0 License.
+The default favicon is licensed under the CC0 license.
+[Chivo Mono](https://fonts.google.com/specimen/Chivo+Mono), the font used, is available under the OFL license.
 
 ## Credits
 
