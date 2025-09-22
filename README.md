@@ -50,4 +50,4 @@ MIT License
 
 ## Credits
 
-Inspired by the clean design of [Eric Migicovsky's blog](https://ericmigi.com/).
+Inspired by the clean design of [Eric Migicovsky's blog](https://ericmigi.com/). Created using Void Agent and DeepSeek.
