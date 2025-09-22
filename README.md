@@ -4,7 +4,7 @@
 
 
 
-A clean, minimal Hugo theme inspired by Eric Migicovsky's blog design.
+A minimal Hugo theme inspired by Eric Migicovsky's blog design.
 
 ## Features
 
