@@ -19,10 +19,7 @@ A minimal Hugo theme inspired by Eric Migicovsky's blog design.
    git submodule add https://github.com/EuphoricPenguin/FlatMigi.git themes/flatmigi
    ```
 
-2. Configure your `config.toml` to use the theme:
-   ```toml
-   theme = "flatmigi"
-   ```
+2. Configure your `config.toml` to use the theme as detailed below.
 
 ## Configuration
 
