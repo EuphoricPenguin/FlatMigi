@@ -65,4 +65,4 @@ The default favicon is licensed under the CC0 license.
 
 ## Credits
 
-Inspired by the clean design of [Eric Migicovsky's blog](https://ericmigi.com/). Created using Void Agent and DeepSeek.
+Inspired by [Eric Migicovsky's blog](https://ericmigi.com/). Created using Void Agent and DeepSeek.
