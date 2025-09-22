@@ -1,8 +1,8 @@
-name = "Eric Migi Theme"
+name = "FlatMigi"
 license = "MIT"
-description = "A Hugo theme inspired by Eric Migicovsky's blog design"
-authors = ["Your Name"]
-homepage = "https://github.com/yourusername/eric-migi-theme"
+description = "A minimalist monospace theme inspired by ericmigi.com."
+authors = ["EuphoricPenguin]
+homepage = "https://github.com/EuphoricPenguin/FlatMigi"
 
 [module]
   [[module.imports]]
