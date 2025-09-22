@@ -45,9 +45,21 @@ footerText = "This is at the bottom."
   url = "https://example.com"
 ```
 
+## Shortcodes
+
+Caption:
+
+```
+{{< caption >}}
+This is a caption.
+{{< /caption >}}
+```
+
+A nifty way to add extra context to something without disrupting the flow of the main article text. Y'know, a caption.
+
 ## License
 
-MIT License
+MIT-0 License
 
 ## Credits
 
