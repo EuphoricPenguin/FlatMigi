@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ with .Site.Params.tabTitle }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ else }}{{ .Title }} | {{ with .Site.Params.tabTitle }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
     
     <link rel="stylesheet" href="{{ "fonts/chivo-mono.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
