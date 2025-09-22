@@ -26,23 +26,23 @@ A clean, minimal Hugo theme inspired by Eric Migicovsky's blog design.
 
 ## Configuration
 
-Add social links to your `config.toml`:
-
 ```toml
-[params.social]
-  twitter = "https://twitter.com/yourusername"
-  bluesky = "https://bsky.app/profile/yourhandle"
-  podcast = "https://www.youtube.com/channel/yourchannel"
-  speaking = "https://www.chartwellspeakers.com/speaker/yourname"
-  contact = "your@email.com"
+baseURL = 'https://penguin.house/'
+languageCode = 'en-us'
+title = 'Penguin.House'
+theme = 'flatmigi'
 
 [params]
-  about = "Your about text here with *markdown* support"
+about = "Your about me text goes here. This will appear at the top of the main page. You can use Markdown formatting here."
+tabTitle = "EuphoricPenguin's Blog"
+
+[[params.links]]
+  text = "Example Link"
+  url = "https://example.com"
+[[params.links]]
+  text = "Example Link"
+  url = "https://example.com"
 ```
-
-## Customization
-
-The theme uses Tailwind CSS for styling. You can customize colors, spacing, and other styles by modifying the `static/css/main.css` file.
 
 ## License
 
