@@ -1,6 +1,7 @@
 # FlatMigi
 
-<img width="500" height="696" alt="image" src="https://github.com/user-attachments/assets/8a02c4f7-c2b5-4a1c-a945-7bc4e802ce12" />
+<img width="75%" alt="image" src="https://github.com/user-attachments/assets/97ae7c54-2a46-47e2-a5d4-daef5077aa8f" />
+
 
 
 A clean, minimal Hugo theme inspired by Eric Migicovsky's blog design.
